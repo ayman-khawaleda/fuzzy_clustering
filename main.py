@@ -1,4 +1,4 @@
-from c_means_clustring import C_MeansClustering as CMC
+from c_means_clustering import C_MeansClustering as CMC
 from gustafsson_kessel_clustering import GustafssonKesselClustering as GKC
 from sklearn.datasets import load_iris
 

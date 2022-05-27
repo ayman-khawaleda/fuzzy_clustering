@@ -19,7 +19,6 @@ class GustafssonKesselClustering:
         self.oldU = np.random.rand(no_c, Z.shape[0])
         self.newU = self.oldU.copy()
         self.E = E
-        self.GM = True if (2 / (self.m - 1)) > 1 else False
         self.type = norm_matrix_type
         self.phi = np.ones(self.centers.shape[0])
 
